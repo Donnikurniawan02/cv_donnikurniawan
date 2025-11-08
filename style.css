@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #7e7d87;
+}
+
+header {
+  background-color: #0e11a5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  width: 280px;
+  background-color: #200ea5;
+  color: white;
+  padding: 30px;
+}
+
+.profile-pic {
+  background-color: white;
+  color: #0e1ba5;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+.skills span {
+  display: inline-block;
+  background: white;
+  color: #0e20a5;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
+footer {
+  background-color: #0e16a5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #220ea5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #18097a;
+}
+
+/* Grid untuk portofolio */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-img {
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+}
